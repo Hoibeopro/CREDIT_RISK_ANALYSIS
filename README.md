@@ -80,8 +80,11 @@ Sau khi tinh chỉnh threshold (ngưỡng tối ưu = 0.5647):
 | Recall (1) | 71.34% | 64.37% ↓ |
 | F1-score (1) | 55.02% | 57.09% ↑ |
 | AUC | 0.8103 | 0.8103 |
+![So sánh kết quả các mô hình](model_comparison.png)
+![ROC Curve - Logistic Regression](roc_curve.png)
 
 ### 🔑 Top yếu tố ảnh hưởng (Feature Importance — Decision Tree)
+![Feature Importance](feature_importance.png)
 1. Tình trạng sở hữu nhà (RENT) — 0.374
 2. Tỷ lệ nợ/thu nhập — DTI — 0.199
 3. Lịch sử vỡ nợ trong quá khứ — 0.179
